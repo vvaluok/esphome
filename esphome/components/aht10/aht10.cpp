@@ -22,7 +22,7 @@ namespace aht10 {
 static const char *const TAG = "aht10";
 static const uint8_t AHT10_CALIBRATE_CMD[] = {0xE1};
 static const uint8_t AHT10_MEASURE_CMD[] = {0xAC, 0x33, 0x00};
-static const uint8_t AHT10_DEFAULT_DELAY = 10;    // ms, for calibration and temperature measurement
+static const uint8_t AHT10_DEFAULT_DELAY = 10;   // ms, for calibration and temperature measurement
 static const uint8_t AHT10_HUMIDITY_DELAY = 50;  // ms
 static const uint8_t AHT10_ATTEMPTS = 3;         // safety margin, normally 3 attempts are enough: 3*30=90ms
 
